@@ -4,31 +4,29 @@
     height: 100%;
 }
 
-.basketball-court {
-    
-    
-}
-
 .lebron {
     position: absolute;
     top: 30%;
     left: 70%;
-}
-
-.lebron-img {
-    width: ;
+    animation: dunk 7s infinite;
+    
 }
 
 .butler {
     position: absolute;
     top: 35%;
-    left: 70%;
-}
-
-.butler-img {
+    left: 40%;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
     
 }
 
 .butler:hover {
-    transform: translate(0, -15%);
+    transform: translate(0, -27%);
 }
+
+@keyframes dunk {
+    from {top: 35%; left: 70%;}
+    to {top: 20%; left: 35%;}
+}
+
