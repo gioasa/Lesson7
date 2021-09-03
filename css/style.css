@@ -4,6 +4,10 @@
     height: 100%;
 }
 
+.court-img {
+    width: 100%;
+}
+
 .lebron {
     position: absolute;
     top: 30%;
