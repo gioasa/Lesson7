@@ -1,6 +1,5 @@
 .court {
     position: relative;
-    
 }
 
 .court-img {
@@ -15,7 +14,6 @@
     left: 70%;
     animation: dunk 7s infinite;
     animation-direction: alternate;
-    
 }
 
 .butler {
@@ -24,9 +22,13 @@
     left: 40%;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
-    opacity: 0.7;
+    opacity: 0.7; 
 }
 
+.butler-img {
+    width: 400px;
+    height: 600px;
+}
 .butler:hover {
     transform: translate(0, -27%);
     opacity: 1;
